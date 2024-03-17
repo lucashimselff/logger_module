@@ -11,7 +11,7 @@ Unit Test Cases:     
   Test whether a call can write logs into the file
 
 - #2 testNewFilesCreatedOnMidnightCross():
-  Test whether New files are created if midnight is crossed. Please note that this test case can only be execute when the local time cross the midnight. It cannot finish runing during other time of the day.
+  Test whether New files are created if midnight is crossed. Please note that this test case can only be execute when the local time cross the midnight. It cannot run successfully during other time of the day.
 
 - #3 testImmediateStopBehavior():     
   Test whether writing would be stopped immediately if waitForCompletion is set to be false.
